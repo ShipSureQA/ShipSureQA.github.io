@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://shipsureqa.github.io/sitemap.xml
