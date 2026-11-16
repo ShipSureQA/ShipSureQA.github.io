@@ -1,0 +1,14 @@
+{
+  "name": "shipsureqa-site",
+  "private": true,
+  "description": "ShipSure QA portfolio website: static site + Playwright E2E, accessibility and link tests",
+  "scripts": {
+    "serve": "python3 -m http.server 4173",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.0",
+    "@playwright/test": "^1.48.0"
+  }
+}
